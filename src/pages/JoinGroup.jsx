@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const JoinGroup = () => {
 
-  const backendUrl = "https://hostel-bank-be-deepsalunkhee.vercel.app";
+  const backendUrl = "http://localhost:5000";
   const [groupid,setGroupid] = useState('')
   const [groupname,setGroupname] = useState('')
   const [joined,setJoined] = useState(false)

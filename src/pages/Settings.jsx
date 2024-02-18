@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const Settings = () => {
-  const backendUrl = "https://hostel-bank-be-deepsalunkhee.vercel.app";
+  const backendUrl = "http://localhost:5000";
 
   const [oldPassword, setOldPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");

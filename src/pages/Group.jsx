@@ -10,7 +10,7 @@ const Group = () => {
 const {groupid} = useParams();
 const navigate = useNavigate();
 const [userData, setUserData] = useState({});
-const backendUrl = "https://hostel-bank-be-deepsalunkhee.vercel.app"; 
+const backendUrl = "http://localhost:5000"; 
 
 useEffect(() => {
   // Call the fetchUserData function

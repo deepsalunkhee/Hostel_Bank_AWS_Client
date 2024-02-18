@@ -2,7 +2,7 @@ import React, { useState,useEffect } from "react";
 import axios from "axios";
 
 const CreateGroup = () => {
-  const backend= "https://hostel-bank-be-deepsalunkhee.vercel.app"
+  const backend= "http://localhost:5000"
   
   const [groupName, setGroupName] = useState("");
   const [groupCode, setGroupCode] = useState("");

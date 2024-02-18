@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 const ForgotPassword = () => {
 
-    const backendUrl = "https://hostel-bank-be-deepsalunkhee.vercel.app";
+    const backendUrl = "http://localhost:5000";
     const [email, setEmail] = useState("");
     const [sent,setSent]=useState(false)
     const navigate=useNavigate()
