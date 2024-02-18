@@ -10,7 +10,7 @@ const Group = () => {
 const {groupid} = useParams();
 const navigate = useNavigate();
 const [userData, setUserData] = useState({});
-const backendUrl = "http://54.252.250.14:5000"; 
+const backendUrl =  import.meta.env.VITE_BASE; 
 
 useEffect(() => {
   // Call the fetchUserData function

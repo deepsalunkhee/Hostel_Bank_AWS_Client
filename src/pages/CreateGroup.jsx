@@ -2,7 +2,7 @@ import React, { useState,useEffect } from "react";
 import axios from "axios";
 
 const CreateGroup = () => {
-  const backend= "http://54.252.250.14:5000"
+  const backend= import.meta.env.VITE_BASE;
   
   const [groupName, setGroupName] = useState("");
   const [groupCode, setGroupCode] = useState("");

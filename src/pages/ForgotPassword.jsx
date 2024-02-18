@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 const ForgotPassword = () => {
 
-    const backendUrl = "http://54.252.250.14:5000";
+    const backendUrl =  import.meta.env.VITE_BASE;;
     const [email, setEmail] = useState("");
     const [sent,setSent]=useState(false)
     const navigate=useNavigate()

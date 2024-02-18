@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const JoinGroup = () => {
 
-  const backendUrl = "http://54.252.250.14:5000";
+  const backendUrl =  import.meta.env.VITE_BASE;
   const [groupid,setGroupid] = useState('')
   const [groupname,setGroupname] = useState('')
   const [joined,setJoined] = useState(false)

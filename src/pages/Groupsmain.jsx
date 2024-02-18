@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const Groupsmain = ({ groupid }) => {
-  const baseUrl = "http://54.252.250.14:5000";
+  const baseUrl =  import.meta.env.VITE_BASE;;
   const [groupUsers, setGroupUsers] = useState([]);
   const [groupId, setGroupId] = useState(groupid);
   const [groupName, setGroupName] = useState("");

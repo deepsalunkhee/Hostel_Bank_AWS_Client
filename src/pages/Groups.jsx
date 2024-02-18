@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Groups = () => {
   const [groups, setGroups] = useState([]);
-  const backendUrl = "http://54.252.250.14:5000";
+  const backendUrl =  import.meta.env.VITE_BASE;;
   const navigate = useNavigate();
 
   useEffect(() => {

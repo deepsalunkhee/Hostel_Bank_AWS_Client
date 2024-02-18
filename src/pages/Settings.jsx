@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const Settings = () => {
-  const backendUrl = "http://54.252.250.14:5000";
+  const backendUrl =  import.meta.env.VITE_BASE;
 
   const [oldPassword, setOldPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
