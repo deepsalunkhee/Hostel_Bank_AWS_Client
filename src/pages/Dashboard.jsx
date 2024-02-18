@@ -5,7 +5,7 @@ import axios from "axios";
 import Navigator from "./Navigator";
 
 const Dashboard = () => {
-  const backendUrl = "http://localhost:5000"; // Define backend URL
+  const backendUrl = "http://54.252.250.14:5000"; // Define backend URL
   const navigate = useNavigate();
   const [userData, setUserData] = useState({});
 

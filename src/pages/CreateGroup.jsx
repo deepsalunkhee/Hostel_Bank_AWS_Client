@@ -2,7 +2,7 @@ import React, { useState,useEffect } from "react";
 import axios from "axios";
 
 const CreateGroup = () => {
-  const backend= "http://localhost:5000"
+  const backend= "http://54.252.250.14:5000"
   
   const [groupName, setGroupName] = useState("");
   const [groupCode, setGroupCode] = useState("");

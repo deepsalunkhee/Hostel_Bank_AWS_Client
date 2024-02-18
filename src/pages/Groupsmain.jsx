@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const Groupsmain = ({ groupid }) => {
-  const baseUrl = "http://localhost:5000";
+  const baseUrl = "http://54.252.250.14:5000";
   const [groupUsers, setGroupUsers] = useState([]);
   const [groupId, setGroupId] = useState(groupid);
   const [groupName, setGroupName] = useState("");

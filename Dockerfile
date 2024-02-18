@@ -7,7 +7,7 @@ COPY . .
 RUN npm run build
 
 # step 2 server with Nginx
-FROM Nginx:1.23-alpine
+FROM nginx:1.23-alpine
 WORKDIR /user/share/Nginx/html
 RUN rm -rf *
 COPY --from=build /app/build .

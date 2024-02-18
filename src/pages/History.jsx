@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect,useState } from 'react'
 
 const History = () => {
-  const baseurl = "http://localhost:5000";
+  const baseurl = "http://54.252.250.14:5000";
 
   const [history, setHistory] = useState([]);
 
